@@ -35,7 +35,7 @@ while True:
     print("Running...")
     for urls in d:
         print("Processing URL: " + str(urls))
-        address = "http://suo.im/api.htm?url=" + urls + "&key=" + sapikey + "&format=json"
+        address = "http://suo.im/api.htm?url=" + urls + "&key=" + sapikey + "&format=json&expireDate=2099-12-31"
         print("API Request: " + address)
         req = requests.get(address)
         res = req.json()

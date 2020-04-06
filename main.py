@@ -34,7 +34,7 @@ while True:
         # else:
         #     print("The URL must include http:// or https://")
         #     return False
-    address = "http://suo.im/api.htm?url=" + raw + "&key=" + sapikey + "&format=json"
+    address = "http://suo.im/api.htm?url=" + raw + "&key=" + sapikey + "&format=json&expireDate=2099-12-31"
     req = requests.get(address)
     res = req.json()
     err = res['err']
