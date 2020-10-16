@@ -2,7 +2,7 @@
 import requests
 import datetime
 def apikey():
-    addr = "https://raw.githubusercontent.com/orange2008/postitem/master/APIKey/suo.im"
+    addr = "https://cdn.jsdelivr.net/gh/orange2008/postitem@master/APIKey/suo.im"
     get = requests.get(addr)
     ret = get.text
     return ret
