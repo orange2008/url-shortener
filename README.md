@@ -1,4 +1,5 @@
 # Introduce
+It is feature detached from <a href="https://github.com/shuairuan/orsh">ORSH</a>. But we made a lot of changes and added more features.__The ORSH one is just a shrinked one...__**But anyways.**
 We used suo.im's free api.
 Made by python.
 Before you use this program, please install python 3 and requests. You are install these using following command.
